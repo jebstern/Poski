@@ -26,7 +26,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 @SuppressLint("HandlerLeak")
-public class LeJOSDroid extends Activity {
+public class MainActivity extends Activity {
 
 	public enum CONN_TYPE {
 		LEJOS_PACKET, LEGO_LCP
@@ -56,7 +56,7 @@ public class LeJOSDroid extends Activity {
 	private TextView _message;
 
 	public static UIMessageHandler mUIMessageHandler;
-	private final static String TAG = "LeJOSDroid";
+	private final static String TAG = "MainActivity";
 
 	@SuppressLint("SetTextI18n")
 	@Override
@@ -209,13 +209,13 @@ public class LeJOSDroid extends Activity {
 
 	public static void displayToastOnUIThread(String message) {
 		Message message_holder = formMessage(message);
-		message_holder.what = LeJOSDroid.TOAST;
+		message_holder.what = MainActivity.TOAST;
 		mUIMessageHandler.sendMessage(message_holder);
 	}
 
 	private static Message formMessage(String message) {
 		Bundle b = new Bundle();
-		b.putString(LeJOSDroid.MESSAGE_CONTENT, message);
+		b.putString(MainActivity.MESSAGE_CONTENT, message);
 		Message message_holder = new Message();
 		message_holder.setData(b);
 		return message_holder;
@@ -223,7 +223,7 @@ public class LeJOSDroid extends Activity {
 
 	public static void sendMessageToUIThread(String message) {
 		Message message_holder = formMessage(message);
-		message_holder.what = LeJOSDroid.MESSAGE;
+		message_holder.what = MainActivity.MESSAGE;
 		mUIMessageHandler.sendMessage(message_holder);
 	}
 

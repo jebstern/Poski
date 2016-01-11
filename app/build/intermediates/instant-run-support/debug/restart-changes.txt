@@ -1,0 +1,9 @@
+H:\Jesper\Android_stuff\Projects\Cheek\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\lejos\android\MainActivity$UIMessageHandler.class
+H:\Jesper\Android_stuff\Projects\Cheek\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\lejos\android\MainActivity$4.class
+H:\Jesper\Android_stuff\Projects\Cheek\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\lejos\android\SplashScreen$1.class
+H:\Jesper\Android_stuff\Projects\Cheek\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\lejos\android\BTSend.class
+H:\Jesper\Android_stuff\Projects\Cheek\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\lejos\android\MainActivity$1.class
+H:\Jesper\Android_stuff\Projects\Cheek\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\lejos\android\MainActivity.class
+H:\Jesper\Android_stuff\Projects\Cheek\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\lejos\android\MainActivity$2.class
+H:\Jesper\Android_stuff\Projects\Cheek\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\lejos\android\MainActivity$CONN_TYPE.class
+H:\Jesper\Android_stuff\Projects\Cheek\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\lejos\android\MainActivity$3.class

@@ -58,14 +58,14 @@ category#android.intent.category.LAUNCHER
 ADDED from H:\Jesper\Android_stuff\Projects\Cheek\app\src\main\AndroidManifest.xml:23:17-77
 	android:name
 		ADDED from H:\Jesper\Android_stuff\Projects\Cheek\app\src\main\AndroidManifest.xml:23:27-74
-activity#lejos.android.LeJOSDroid
+activity#lejos.android.MainActivity
 ADDED from H:\Jesper\Android_stuff\Projects\Cheek\app\src\main\AndroidManifest.xml:26:9-31:20
 	android:label
 		ADDED from H:\Jesper\Android_stuff\Projects\Cheek\app\src\main\AndroidManifest.xml:28:13-45
 	android:theme
 		ADDED from H:\Jesper\Android_stuff\Projects\Cheek\app\src\main\AndroidManifest.xml:29:13-60
 	android:name
-		ADDED from H:\Jesper\Android_stuff\Projects\Cheek\app\src\main\AndroidManifest.xml:27:13-52
+		ADDED from H:\Jesper\Android_stuff\Projects\Cheek\app\src\main\AndroidManifest.xml:27:13-41
 uses-sdk
 INJECTED from H:\Jesper\Android_stuff\Projects\Cheek\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:support-v4:22.1.1] H:\Jesper\Android_stuff\Projects\Cheek\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\AndroidManifest.xml:20:5-43

@@ -4,7 +4,7 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 
-import lejos.android.LeJOSDroid.CONN_TYPE;
+import lejos.android.MainActivity.CONN_TYPE;
 import lejos.pc.comm.NXTConnector;
 
 import android.os.Handler;
@@ -44,21 +44,21 @@ public class BTSend extends Thread {
         Log.d(TAG, "BTSend run");
         Looper.prepare();
 
-        conn = LeJOSDroid.connect(CONN_TYPE.LEJOS_PACKET);
+        conn = MainActivity.connect(CONN_TYPE.LEJOS_PACKET);
 
         dos = conn.getDataOut();
         dis = conn.getDataIn();
 
         if (dis == null) {
             Log.d(TAG, "dis is null");
-            LeJOSDroid.displayToastOnUIThread("Ei saatu yhteyttä robottiin, yritä uudelleen.");
+            MainActivity.displayToastOnUIThread("Ei saatu yhteyttä robottiin, yritä uudelleen.");
         } else {
-            LeJOSDroid.displayToastOnUIThread("Yhteys muodostettu robottiin.");
+            MainActivity.displayToastOnUIThread("Yhteys muodostettu robottiin.");
             String s;
             for (int i = 0; i < 100; i++) {
                 try {
                     s = dis.readUTF();
-                    LeJOSDroid.sendMessageToUIThread(s);
+                    MainActivity.sendMessageToUIThread(s);
                     yield();
                 } catch (IOException e) {
                     Log.e(TAG, "Error ... ", e);

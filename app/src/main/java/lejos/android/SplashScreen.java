@@ -31,7 +31,7 @@ public class SplashScreen extends Activity {
         // 3 sekunnin "Splash screen"
         new Handler().postDelayed(new Runnable() {
             public void run() {
-                Intent i = new Intent(SplashScreen.this, LeJOSDroid.class);
+                Intent i = new Intent(SplashScreen.this, MainActivity.class);
                 startActivity(i);
                 finish();
             }
