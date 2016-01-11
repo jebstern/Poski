@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:padding="5dp" >
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/btnStyleOrange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/test_2" />
+
+    <TextView
+        android:id="@+id/btstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_status"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/messageText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="10dip" >
+
+            <ImageView
+                android:id="@+id/red_img"
+                android:layout_width="43dp"
+                android:layout_height="38dp"
+                android:background="@null"
+                android:contentDescription="@string/content_desc"
+                android:src="@drawable/red" />
+
+            <TextView
+                android:id="@+id/red_value"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:paddingTop="5sp"
+                android:text="@string/colorball_value"
+                android:textColor="#000000"
+                android:textSize="22sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="10dip" >
+
+            <ImageView
+                android:id="@+id/green_img"
+                android:layout_width="43dp"
+                android:layout_height="38dp"
+                android:contentDescription="@string/content_desc"
+                android:src="@drawable/green" />
+
+            <TextView
+                android:id="@+id/green_value"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:paddingTop="5sp"
+                android:text="@string/colorball_value"
+                android:textColor="#000000"
+                android:textSize="22sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="10dip" >
+
+            <ImageView
+                android:id="@+id/blue_img"
+                android:layout_width="43dp"
+                android:layout_height="38dp"
+                android:contentDescription="@string/content_desc"
+                android:src="@drawable/blue" />
+
+            <TextView
+                android:id="@+id/blue_value"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:paddingTop="5sp"
+                android:text="@string/colorball_value"
+                android:textColor="#000000"
+                android:textSize="22sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="10dip" >
+
+            <ImageView
+                android:id="@+id/yellow_img"
+                android:layout_width="43dp"
+                android:layout_height="38dp"
+                android:contentDescription="@string/content_desc"
+                android:src="@drawable/yellow" />
+
+            <TextView
+                android:id="@+id/yellow_value"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:paddingTop="5sp"
+                android:text="@string/colorball_value"
+                android:textColor="#000000"
+                android:textSize="22sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="10dip" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/total_txt"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/total_value"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:text="@string/colorball_value"
+                android:textColor="#000000"
+                android:textSize="22sp" />
+        </TableRow>
+    </TableLayout>
+        
+    <CheckBox
+        android:id="@+id/enable_sound"
+        android:checked="true"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="setSound"
+        android:text="@string/cbox" />
+    
+</LinearLayout>

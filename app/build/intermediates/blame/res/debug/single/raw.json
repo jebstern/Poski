@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "H:\\Jesper\\Android_stuff\\Projects\\Cheek\\app\\build\\intermediates\\res\\merged\\debug\\raw\\timantit_on_ikuisia.wav",
+        "source": "H:\\Jesper\\Android_stuff\\Projects\\Cheek\\app\\src\\main\\res\\raw\\timantit_on_ikuisia.wav"
+    },
+    {
+        "merged": "H:\\Jesper\\Android_stuff\\Projects\\Cheek\\app\\build\\intermediates\\res\\merged\\debug\\raw\\kuka_muu_muka.wav",
+        "source": "H:\\Jesper\\Android_stuff\\Projects\\Cheek\\app\\src\\main\\res\\raw\\kuka_muu_muka.wav"
+    },
+    {
+        "merged": "H:\\Jesper\\Android_stuff\\Projects\\Cheek\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sokka_irti.wav",
+        "source": "H:\\Jesper\\Android_stuff\\Projects\\Cheek\\app\\src\\main\\res\\raw\\sokka_irti.wav"
+    }
+]
