@@ -1,6 +1,6 @@
 # Poski
 
-Poski is an Android application, that I developed for our group in the "Ammatillisesti Suuntaava Projekti" course.
+Poski is an Android application that I developed for our group in "Ammatillisesti Suuntaava Projekti" course.
 We used Lego Mindstorms robots with NXT Intelligent Bricks in the project.
 
 (I have replaced the original audio files and launcher icon)
